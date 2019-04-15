@@ -1,0 +1,595 @@
+
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name='viewport' content='width=device-width,initial-scale = 1 , maximum-scale=1, minimum-scale=1, user-scalable=no' />
+<meta name="HandheldFriendly" content="true"/> 
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<META NAME="description" CONTENT="A platform for creative and talented Africans. Models, artists, photographers, Artists, architects, graphic, fashion web designers, caterers, makeup artists and many more can showcase their works for free." />
+<META NAME="keywords" CONTENT="fashion designers, artists, makeup, african designers, love, event managers, writers, caterers, graphic designers, web designers, fashion illustration, entrepreneurs, bakers, cakes, models, creators, singers, nigerian artists, jobs in nigeria, jobs" />
+<link rel="alternate" media="handheld" href="http://www.54artistry.com" />
+<meta property="og:url"         content="http://www.54artistry.com" />
+<meta name="robots" content="noodp,noydir" />
+<meta property="og:type"        content="website" />
+<meta property="og:title"       content="Welcome to 54artistry.com" />
+<meta property="og:description" content="A platform for creative and talented Africans. Models, artists, photographers, Artists, architects, graphic, fashion web designers, caterers, makeup artists and many more can showcase their works for free." />
+<meta property="og:site_name"   content="54artistry.com" />
+<meta property="fb:app_id"      content="322849971234440" />
+<meta property="og:image"       content="http://www.54artistry.com/apps/user/homepage/images/logo.png" />
+<meta property="og:image:width"       content="400" />
+<meta property="og:image:height"      content="400" />
+
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/plugins/bootstrap/bootstrap.min.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/css/shypes.min.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/css/style.min.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/css/animate.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/css/noresponsive.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/select/css/cs-select.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/select/css/cs-skin-border.css?ver=2.0.0.1' />
+<link rel='stylesheet' type='text/css' href='http://www.54artistry.com/assets/plugins/bxslider/jquery.bxslider.css?ver=2.0.0.1' />
+
+<linK href="http://www.54artistry.com/image/trade.png" rel="shortcut icon" type="image/x-icon" />
+<title>Welcome to 54artistry  | 54artistry</title>
+</head>
+<body >	
+	<div id="fb-root"></div>
+	<div id="bodycontaniner" > 	
+	    <div id="global" >
+	    	
+<header  role="banner" id="mainheader" >
+    <div id="onlinemenu">
+        <div class="pull-left" >
+            <a href="http://www.54artistry.com/" style="padding:0px; margin-right: 10px;"><span id="logo"></span></a>
+        </div>
+        <div  class="container--">
+            
+            <ul id="menu" class="menu pull-right" style="margin-right:100px;" >
+                <!--<li class="main-item"><a href="http://www.54artistry.com/">Home</a></li>-->
+                <li class="main-item">
+                    <a href="http://services.54artistry.com">Hire <sup style="color:#fe2;">new</sup></a>
+                </li>
+                <li class="main-item">
+                    <a href="http://job.54artistry.com">Job <sup style="color:#fe2;">new</sup></a>
+                    <ul >
+                        <li><a href="http://job.54artistry.com"><span class="fa fa-briefcase"></span> Creative Jobs</a></li>
+                        <li><a href="http://job.54artistry.com/creative"><span class="fa fa-plus"></span> Post a Job</a></li>
+                        <li ><a href="http://www.54artistry.com/hire"><span class="fa fa-briefcase"></span> Hire a Freelancer</a></li>
+                    </ul>
+                </li>
+                <li class="main-item"><a href="#">Categories</a>
+                    <ul>
+                        
+                        <li ><a href="http://www.54artistry.com/Architects.html">Architects </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Artists.html">Artists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Caterers.html">Caterers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Events-Planners.html">Events Planners </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Fashion-Designers-&-Stylists.html">Fashion Designers & Stylists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Graphics-Designers.html">Graphics Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Hair-Stylists.html">Hair Stylists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Interior-Designers.html">Interior Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Jewelry-Designers.html">Jewelry Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Makeup-Artists.html">Makeup Artists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Models.html">Models </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Philanthropists.html">Philanthropists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Photographers.html">Photographers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Web-Designers.html">Web Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Writers.html">Writers </a></li>
+                        
+                    </ul>
+                </li>
+                <li class="main-item">
+                    <a href="#">More</a>
+                    <ul >
+                        <li ><a href="http://www.54artistry.com/search">Discover</a>
+                        <li ><a href="http://blog.54artistry.com">Blog</a></li>
+                        <li ><a href="https://www.facebook.com/54artistry/shop" target="_blank"  >Shop</a></li>
+                        <li ><a href="http://ref.54artistry.com" target="_blank"  >Affiliate</a></li>
+                        <li ><a href="http://ppm.54artistry.com" target="_blank"  >PPM Platform</a></li>
+                    </ul>
+                </li>
+                <!--
+                <li class="main-item"><a href="http://www.54artistry.com/search">Discover</a>
+                <li class="main-item"><a href="http://blog.54artistry.com">Blog</a></li>
+                <li class="main-item"><a href="http://www.54artistry.com/hire">Hire a Freelancer</a></li>
+            
+                <li class="main-item"><a class="online_shop" href="https://www.facebook.com/54artistry/shop" target="_blank"  >Shop</a></li>
+                <li class="main-item"><a class="earn_money" href="http://ref.54artistry.com" target="_blank"  >Affiliate</a></li>
+                <li class="main-item"><a class="earn_money" href="http://ppm.54artistry.com" target="_blank"  >PPM Platform</a></li>
+                -->
+            </ul>
+             
+            
+            <ul class="menu pull-right"  >
+                <li class="main-item"><a  href="http://www.54artistry.com/account/login">Log in</a></li>
+            </ul>
+            
+           
+            
+        </div>
+        <div class="clr"></div>
+    </div>
+</header>
+
+	        <div id="globalcontainer" >
+	            <div id="fixcase">
+	                
+	                
+<div class="head-bg"  >
+    <div class="head-bg-img" style="background: url(http://www.54artistry.com/apps/user/homepage/images/C0LLAGE2.jpg);" ></div>
+    <div class="head-bg-content">
+        <h1>A Community of Creative Freelancers</h1>
+        <p>Have a Creative work to share? Showcase your creativity and get discovered.</p>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <form name="activesearchform" action="http://www.54artistry.com/search" method="get" class="form-inline"  onsubmit="return  dosearch();">
+                    <div class="form-group search-bar">
+                        <input type="text" name="q" id="search" value=""   class="inputbox" placeholder="Search e.g. Wedding Photographer in Lagos"  autocomplete="off"  />                                                                             
+                        <!--<select class="cs-select cs-skin-border" id="searchcatid" name="c" >
+                                <option value="" >Choose Category</option>
+                                
+                                <option value="{catid}" >{pname}</option>
+                                
+                            </select>
+                        -->
+                    
+                    </div>
+                    <div class="form-group">
+                    <button class="btn color-4"  id='homebutton'>Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<section class="se-section features-section">
+
+    <div class="container push-up-10">
+       
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-4">
+                <a href="http://www.54artistry.com/category"><i class="fa fa-cloud-upload" ></i></a>
+                <h4><a href="http://www.54artistry.com/category">Creative Hub</a></h4>
+                <p>Join 13,000+ creatives in the 54artistry family. Showcase your creative work</p>
+                <p><a href="http://www.54artistry.com/category" class="btn btn-purple push-up-10"  >Explore</a></p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="http://services.54artistry.com"><i class="fa fa-coffee"></i></a>
+                <h4><a href="http://services.54artistry.com">Buy Services</a></h4>
+                <p>Hire a creative freelancer and get your projects done faster and cheaper.</p>
+                <p><a href="http://services.54artistry.com" class="btn btn-purple push-up-10"  >Hire Now</a></p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="http://job.54artistry.com"><i class="fa fa-briefcase" ></i></a>
+                <h4><a href="http://job.54artistry.com">Jobs</a></h4>
+                <p>Need to get a creative job done? Post it and get creatives to apply.</p>
+                <p><a href="http://job.54artistry.com" class="btn btn-purple push-up-10"  >Get Started</a></p>
+            </div>
+            <!--
+            <div class="col-md-3 col-sm-3">
+                <a href="http://ppm.54artistry.com"><i class="fa fa-globe" ></i></a>
+                <h4><a href="http://ppm.54artistry.com">Social Trend</a></h4>
+                <p>Get people to share your content with their friends and followers for a token</p>
+                <p><a href="http://ppm.54artistry.com" class="btn btn-purple push-up-10"  >Create a campaign</a></p>
+            </div>
+            -->
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+
+</section>
+<style>
+.bx-wrapper{
+    background:#e9eaed;
+}
+</style>
+<section class="testimonials-section">
+    <div class="box" > 
+        <ul class="bxslider">
+            
+            <li>
+                <div class="testimony">
+                    <div class="content">
+                       “54artistry is a great platform for you to be able to find and work with creative people and it has definitely worked for Jayosbie.com”
+                    </div>
+                    <div>
+                        <i class="imageview" style="background-image: url(http://www.54artistry.com/apps/user/homepage/images/Juwon-Isola-Osobu.jpg); width:70px; height:70px;"    ></i>
+                    </div>
+                    <div class="user-details">
+                        <strong>Juwon Isola-Osobu</strong>
+                       Founder and CEO of Jay Osbie.com
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="testimony">
+                    <div class="content">
+                       “A big shout out to 54artistry for recommending great talent for B430tv”
+                    </div>
+                    <div>
+                        <i class="imageview" style="background-image: url(http://www.54artistry.com/apps/user/homepage/images/Ronke-Ogunmakin.jpg); width:70px; height:70px;"    ></i>
+                    </div>
+                    <div class="user-details">
+                        <strong>Ronke Ogunmakin</strong>
+                       CEO/Co-Founder Ceeander Entertainment
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="testimony">
+                    <div class="content">
+                       “54Artistry is quite an awesome initiative. Bringing creative minds into one platform in order to make them visible and available to small businesses”
+                    </div>
+                    <div>
+                        <i class="imageview" style="background-image: url(http://www.54artistry.com/apps/user/homepage/images/Anita-Okoh.jpg); width:70px; height:70px;"    ></i>
+                    </div>
+                    <div class="user-details">
+                        <strong>Anita Okoh</strong>
+                       Operations, She Leads Africa
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="testimony">
+                    <div class="content">
+                       “We have been working with the guys at 54Artistry for months now and we have been very satisfied with the work of their creatives. Their customer service is on point too”
+                    </div>
+                    <div>
+                        <i class="imageview" style="background-image: url(http://www.54artistry.com/apps/user/homepage/images/Segun-Martins.jpg); width:70px; height:70px;"    ></i>
+                    </div>
+                    <div class="user-details">
+                        <strong>Segun Martins</strong>
+                       Head of Digital, Insight Communications
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="testimony">
+                    <div class="content">
+                       “54Artistry worked with MTN Nigeria on a photography project across Nigeria and we were impressed with their services”
+                    </div>
+                    <div>
+                        <i class="imageview" style="background-image: url(http://www.54artistry.com/apps/user/homepage/images/Godfrey-Adejumoh.jpg); width:70px; height:70px;"    ></i>
+                    </div>
+                    <div class="user-details">
+                        <strong>Godfrey Adejumoh</strong>
+                       External Communications Officer, MTN Nigeria
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="testimony">
+                    <div class="content">
+                       “Thanks 54artistry! African creatives need to learn how to network better, gain exposure and also develop a digital community of practice. Glad to be part of the family!.”
+                    </div>
+                    <div>
+                        <i class="imageview" style="background-image: url(http://www.54artistry.com/apps/user/homepage/images/Nana-Spio-Garbrah.png); width:70px; height:70px;"    ></i>
+                    </div>
+                    <div class="user-details">
+                        <strong>Nana Spio-Garbrah</strong>
+                       Interior Stylist, Blue Print Africa
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</section>
+
+	                <div class="clr"></div>	
+	            </div>
+	        </div>
+	         <div class="clr"></div>
+	   		
+<div id="footer">
+    <footer class="bs-docs-footer" role="contentinfo">
+        <div class="container">
+            <p style="padding:5px 0;">Join Our Community</p>
+            <p class="bottom-social">
+                <a href="https://www.facebook.com/54artistry" target="_blank"><span class="fa fa-facebook-square"></span> </a>
+                <a href="http://twitter.com/54artistry"  target="_blank"><span class="fa fa-twitter-square"></span></a>
+                <a href="http://instagram.com/54artistry"  target="_blank" ><span class="fa fa-instagram"></span></a>
+                <a href="http://pinterest.com/54artistry"  target="_blank"><span class="fa fa-pinterest-square"></span></a>
+            </p>
+            <ul class="footthing"  >
+                <li><a href="http://www.54artistry.com" class="dark">54artistry.com</a> </li>
+                <li><a href="http://ref.54artistry.com" class="dark">Affilate</a> </li>
+                <li><a href="http://ppm.54artistry.com" class="dark">PPM Platform</a> </li>
+                <li><a href="http://www.54artistry.com/about" class="dark">About US</a> </li>
+                <li><a href="http://blog.54artistry.com" class="dark">Blog</a> </li>
+                <li><a href="https://www.facebook.com/54artistry/shop" target="_blank" class="online_shop dark"   >Shop</a></li>
+                <li><a href="http://www.54artistry.com/hire" class="dark">Hire</a> </li>
+                <li><a href="http://www.54artistry.com/testimonials" class="dark">Testimonials</a> </li>
+                <!--<li><a href="http://www.54artistry.com/sell">Sell ur Product</a></li>-->
+                <li><a href="http://www.54artistry.com/contact" class="dark">Contact US</a></li>
+                <li><a href="http://www.54artistry.com/support" class="dark">Support Center</a> </li>
+                <li><a href="http://www.54artistry.com/termsandcondition" class="dark">Terms and Condition</a></li>
+                <li><a href="http://www.54artistry.com/privacy"class="dark" >Privacy policy</a></li>
+                <li><a href="http://www.54artistry.com/family" class="dark" >Family Guidelines</a></li>
+            <!--  <li><a href="http://www.54artistry.com/how_to_create_a_project" >How to create a project</a></li> -->
+            </ul>
+            <div class="clr"></div>
+            <p style='text-align:center;'> 14A Bayo Dejonwo Street, Maryland, Lagos Nigeria</p>
+            
+            <p style='text-align:center;'> <a href="http://www.54artistry.com?switch=m">Mobile Site</a> </p>
+            
+        </div>
+    </footer>
+</div>
+
+			<input type="hidden" name="onlineid" id="onlineid" value="" />
+	    </div>
+	    <div class="clr"></div>
+	</div>
+</body>
+<div class="clr"></div> 
+<script type="text/x-tmpl" id="msg_notice">  
+    <a href="http://www.54artistry.com/message/view/{%=o.user_id%}"> {%=o.message%}</a>
+</script>
+
+<script type='text/javascript' src='http://www.54artistry.com/assets/plugins/jquery/jquery.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/plugins/bootstrap/bootstrap.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/js/mobile_detect.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/plugins/noty/jquery.noty.packaged.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/js/jquery.tools.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/js/tmpl.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/js/socket.io.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/js/masonry.pkgd.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/select/js/classie.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/select/js/selectFx.min.js?ver=2.0.0.1'></script>
+<script type='text/javascript' src='http://www.54artistry.com/assets/plugins/bxslider/jquery.bxslider.js?ver=2.0.0.1'></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("i.imgload").css('background-image', 'none').lazyload({effect : "fadeIn"}).removeClass('imgload');
+    $('.bxslider').bxSlider();
+});
+/*
+(function() {
+    [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {    
+        new SelectFx(el);
+    } );
+})();
+*/
+</script>
+
+
+<script type="text/javascript">
+function dosearch(formobj){
+    var preview = get_param('preview');
+    var safe_mode = get_param("safe_mode");
+    if(safe_mode == 'boss') var safetext = '&safe_mode=boss';
+    else var safetext = '';
+    try{
+         ga('send', 'event', 'search', formobj.search.value);
+    } catch (e) {
+        console.log("Could not track search");
+    };
+    //redirect_to('http://www.54artistry.com//search/?q='+urlencode(document.activesearchform.search.value)+safetext);
+    //return false; 
+};
+
+function dosearchCatgory(catid){
+    
+    try{
+         ga('send', 'event', 'category_search', catid);
+    } catch (e) {
+        console.log("Could not track search");
+    };
+
+    $('#searchBoxTool').submit();
+};
+
+
+var _elevator = null;
+var _elevator_config = {
+    item_top: $('#fb-root'),
+    item_bottom: $('#footer'),
+    align: 'bottom left',
+    speed: 500,
+    shape: 'circle',
+    glass: false,
+    tooltips: false,
+};
+$(document).ready(function(){
+    _elevator = $.elevator(_elevator_config);
+});
+$('#mainheader').scrollToFixed({zIndex:999});
+//$('.twittersyd').scrollToFixed({zIndex:999,  marginTop: $('#mainheader').outerHeight(true)});
+$(document).ready(function() {
+    $("#menu").easymenu();
+});
+$(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+    if (location.hash){ 
+        setTimeout(function(){
+            var target =  $(location.hash);
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 100
+                }, 1000);
+                return false;
+            }
+        },1000)
+        
+    }
+});
+
+
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=322849971234440";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//322849971234440
+window.fbAsyncInit = function(){
+    FB.init({
+      appId      : '322849971234440', 
+      channelUrl : '//connect.facebook.net/en_US/all.js#xfbml=1&appId=322849971234440', 
+      status     : true,
+       cookie    : true,
+      xfbml      : true
+    }); 
+    FB.Event.subscribe("edge.create",
+        function(){
+            ga('send', 'social', 'facebook', 'like');
+        }
+    );
+    // FB.getLoginStatus(function(response) {
+    //  updateButton(response);
+    // });
+};  
+
+window.pAsyncInit = function() {
+    PDK.init({
+        appId: "4813047264549285838", // Change this
+        cookie: true
+    });
+};
+
+(function(d, s, id){
+    var js, pjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//assets.pinterest.com/sdk/sdk.js";
+    pjs.parentNode.insertBefore(js, pjs);
+}(document, 'script', 'pinterest-jssdk'));
+
+
+try{
+    $(document).on("click",".online_shop", function(){
+        ga('send', 'event', 'Shop', 'MainStore');
+    });
+} catch (e) {
+    console.log("tracking events not fired on this page");
+};
+$(document).ready(function() {	
+	(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	})();
+});	
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+// (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="http://instagramfollowbutton.com/components/instagram/v2/js/ig-follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));
+</script>
+
+<script type="text/javascript">
+var baseurl = 'http://www.54artistry.com';
+var pushserver = 'http://server.54artistry.com';
+$(document).ready(function(){
+	var socket = io(pushserver);
+	try{
+		$.shypesjax.setoptions({
+			baseurl : baseurl,
+			pushserver : pushserver
+		});
+	}catch(e) {	
+		console.log('Shypesjax failed to load, re-load browser')
+	}
+	function online(socket){
+        socket.emit('OnlineUser', {
+            'user_id' :  $("#onlineid").val()
+        });
+    }
+    function doOnline(socket){
+        var onlineid = $("#onlineid").val();
+        if(onlineid != ""){
+            online(socket);
+            setTimeout(
+                function(){ 
+                    doOnline(socket);
+            }, 5000);
+        }
+    }
+    try {
+        socket.on('newMessage', function(response) {
+            var onlineid = $("#onlineid").val();
+            if (response.toid == onlineid ){
+                var toid = $("#toid").val();
+                if(toid == "" || response.fromid != toid){
+                    showNotice( tmpl('msg_notice',{
+                        'message':'New message from' + response.fromuser,
+                        'user_id':response.fromid,
+                    }),true,'topLeft');
+                }
+            }
+        });
+        socket.on('OnlineUser', function(response) {
+            var toid = $("#toid").val()
+            if (response.user_id == toid){
+                $('#online').val('1');
+                $('#online_status').html('online');
+                $('#onlinedot').html('<span class="online dot"></span>');
+            }
+        });
+        doOnline(socket);
+    } catch (err) {
+        console.log('Error connecting to node server');
+    }
+   try {
+        doOnline(socket);
+    } catch (err) {
+        console.log('Error connecting to node server');
+    }
+});
+</script>
+<!--MinifyJs-->
+<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58748730-1', '54artistry.com');
+		_url = document.location.pathname;
+	    _url += (_url.split('?')[1] ? '&':'?') + 'tag=web';
+	    ga('send', 'pageview', _url);
+		</script>
+<script type="text/javascript">
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();	(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5983224fd1385b2b2e2856a5/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+			})();
+		</script>
+<!--EndMinifyJs-->
+</html>

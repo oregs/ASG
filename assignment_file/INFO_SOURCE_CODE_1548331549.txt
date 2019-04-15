@@ -1,0 +1,60 @@
+he Library System was developed using PHP, HTML, MYSQLi and jQuery. I used bootstrap as a front-end framework to have a nice design. The system can borrow and return books in a transaction, and also can trace student transaction details.
+
+Features:
+Admin Account(CRUD)
+Student Account(CRUD)
+Book Details(CRUD)
+Borrowing Details
+Returning Details
+
+Database name: db_ls.sql
+
+Login Account:
+username: admin
+password: admin
+
+The Source Code is ready to be downloaded, just kindly click download button below. I hope that this system can help you for what you are looking for. For more updates and tutorials just kindly visit this site. Enjoy Coding!!
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ Student Result Management System divided in two modules:
+
+Student
+Admin
+Admin Features
+
+Admin Dashboard
+Admin can add/update/ Class
+Admin can add/update/ Subjects
+Admin can add/update/ Active/Inactive Subject combination with class
+Admin can register new student and also edit info of the student
+admin can declare/ edit result of a student.
+Admin can change own password
+----------------------------------------------------------------------------------------------------------------------------------------------
+Online Class and Exam Scheduling System
+
+This system is intended to create and easily manage the class and examination schedule of an institution using PHP and Mysqli. Easily tracking of conflicts on the teacher, students and room schedule will be detected by the system to avoid redundancy and inconsistency. This will greatly ease the persons-in-charge's responsibilities in doing schedules every start of semester and examination.
+
+The following are the features of the Online Scheduling System:
+
+Manage Class Schedules
+Manage Examination Schedules
+Manage Class, Rooms, Subject, Teacher, Signatories
+Manage Department, Designation, Program, Rank and Salutation
+Print Class Schedules by Teacher, Class and Room
+Print Examination Schedules by Proctor, Class and Room
+Default username and password are as follows:
+Username: admin
+Password: admin
+
+Database file location: dist/db/scheduling.sql
+Database Name: scheduling
+Username: root
+Password: l3ading
+
+Hope this sourcecode will help you out in your projects or even in your thesis! Goodluck!
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1.Faculty Management System
+2 Online Class and Exam Scheduling System
+
+
+ 

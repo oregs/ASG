@@ -1,0 +1,258 @@
+The term MEAN stack refers to a collection of JavaScript based technologies used to develop web applications. MEAN is an acronym for MongoDB, ExpressJS, AngularJS and Node.js. From client to server to database, MEAN is full stack JavaScript. This article explores the basics of the MEAN stack and shows how to create a simple bucket list application.
+
+Introduction
+Node.js is a server side JavaScript execution environment. It’s a platform built on Google Chrome’s V8 JavaScript runtime. It helps in building highly scalable and concurrent applications rapidly.
+
+Express is lightweight framework used to build web applications in Node. It provides a number of robust features for building single and multi page web application. Express is inspired by the popular Ruby framework, Sinatra.
+
+MongoDB is a schemaless NoSQL database system. MongoDB saves data in binary JSON format which makes it easier to pass data between client and server.
+
+AngularJS is a JavaScript framework developed by Google. It provides some awesome features like the two-way data binding. It’s a complete solution for rapid and awesome front end development.
+
+In this article, we’ll be creating a simple CRUD application using the MEAN stack. So, let’s dive in.
+
+Prerequisites
+Before getting started, we need to install the various MEAN software packages. Begin by installing Node.js from the download page. Next, install download and install MongoDB. The install MongoDB page contains guides for setting up Mongo on a variety of operating systems. To make things easier, we’ll be starting from a MEAN boilerplate project. Simply clone the boilerplate repo and install the dependencies using npm as shown in the following listing.
+
+git clone http://github.com/linnovate/mean.git
+cd mean
+npm install
+This installs the required packages. Next, we need to set the default port on which MongoDB runs to 27017 as specified in the README file of the boilerplate. Open up the file /etc/mongodb.conf and uncomment the line port = 27017. Now, restart the mongod server as shown below.
+
+mongod --config /etc/mongodb.conf
+Next, from the project directory simply type grunt. If all goes well, you will see a message like this:
+
+Express app started on port 3000
+Now that the server is running, navigate to http://localhost:3000/ in a browser to see the boilerplate app running.
+
+Boilerplate Overview
+We now have a fully functional boilerplate application. It has authentication implemented, including using social media login. We won’t be going much into that, but will be creating our own little app. If you have a look at the application structure, the public folder contains our AngularJS front end and the server folder contains our NodeJS backend.
+
+Creating a Listing View
+First, let’s start by creating our front end using AngularJS. Navigate to the public folder. Create a new folder called bucketList, where we’ll keep our front end files. Inside the bucketList directory, create subdirectories named controllers, routes, services, and views. Inside the bucketList folder also create a file named bucketList.js containing the following code.
+
+'use strict';
+
+angular.module('mean.bucketList', []);
+Next, open mean/public/init.js and add the module mean.bucketList. The modified portion should look like this:
+
+angular.module('mean', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.router', 'mean.system', 'mean.articles', 'mean.auth', 'mean.bucketList']);
+Now, navigate to public/bucketList/routes and add the bucketList.js route file to handle routing in our app. The code to accomplish this is shown below.
+
+'use strict';
+
+//Setting up route
+angular.module('mean.bucketList').config(['$stateProvider', '$urlRouterProvider',
+  function($stateProvider, $urlRouterProvider) {
+    // states for my app
+    $stateProvider
+      .state('all bucket list', {
+        url: '/bucketList',
+        templateUrl: 'public/bucketList/views/list.html'
+      });
+  }
+]);
+Inside public/bucketList/views/ create a file named list.html. This is our view, which will display our bucket list. The contents of this file are shown below.
+
+<section data-ng-controller="BucketListController">
+  Welcome to the bucket list collection
+</section>
+Also create a file named bucketList.js inside public/bucketList/controllers containing the following code.
+
+'use strict';
+
+angular.module('mean.bucketList').controller('BucketListController', ['$scope', '$stateParams', '$location', 'Global',
+  function($scope, $stateParams, $location, Global) {
+    $scope.global = Global;
+  }
+]);
+Next, start the app using grunt. Make sure that MongoDB is running too if it’s not already. Navigate your browser to http://localhost:3000/#!/bucketList, and you should see the list view that we created. If you are wondering about the #! in the url, it’s just done to separate the AngularJS and NodeJS routing.
+
+Add to the Bucket List
+Let’s create a view to add things to our bucket list. Inside public/bucketList/views add a new HTML file named create.html containing the following code.
+
+<section data-ng-controller="BucketListController">
+  <form class="form-horizontal col-md-6" role="form" data-ng-submit="create()">
+    <div class="form-group">
+      <label for="title" class="col-md-2 control-label">Title</label>
+      <div class="col-md-10">
+        <input type="text" class="form-control" data-ng-model="title" id="title" placeholder="Title" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="description" class="col-md-2 control-label">Description</label>
+      <div class="col-md-10">
+        <textarea data-ng-model="description" id="description" cols="30" rows="10" placeholder="Description" class="form-control" required></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-offset-2 col-md-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</section>
+This code attaches the BucketListController controller. Also note that on form submit, a method named create() is invoked. Next, let’s create a method named create() in the BucketListController. The following code must be added to public/bucketList/controllers/bucketList.js, as shown below. We have injected the BucketList service in the controller, which we need to interact with the back end.
+
+'use strict';
+
+angular.module('mean.bucketList').controller('BucketListController', ['$scope', '$stateParams', '$location', 'Global', 'BucketList',
+  function ($scope, $stateParams, $location, Global, BucketList) {
+    $scope.global = Global;
+
+    $scope.create = function() {
+      var bucketList = new BucketList({
+        title: this.title,
+        description: this.description
+      });
+
+      bucketList.$save(function(response) {
+        $location.path('/bucketList');
+      });
+    };
+  }
+]);
+The contents of public/bucketList/services/bucketList.js are shown below.
+
+'use strict';
+
+angular.module('mean.bucketList').factory('BucketList', ['$resource',
+  function($resource) {
+    return $resource('bucketList);
+  }
+]);
+We also need to add a route to add items to the bucket list. Modify public/bucketList/routes/bucketList.js, adding one more state as shown below.
+
+'use strict';
+
+//Setting up route
+angular.module('mean.bucketList').config(['$stateProvider', '$urlRouterProvider',
+  function($stateProvider, $urlRouterProvider) {
+    // states for my app
+    $stateProvider
+      .state('all bucket list', {
+        url: '/bucketList',
+        templateUrl: 'public/bucketList/views/list.html'
+      })
+      .state('add bucket list', {
+        url: '/addBucketList',
+        templateUrl: 'public/bucketList/views/create.html'
+      })
+  }
+]);
+Restart the server and navigate to http://localhost:3000/#!/addBucketList. You should see the bucket list creation form. Unfortunately, it’s not yet functional. We need to create the back end too.
+
+Creating the Back End
+The bucket list should have a title, description, and status. So, create a new file called bucketlist.js in server/models/bucketlist.js, and add the following code.
+
+'use strict';
+
+/**
+ * Module dependencies.
+ */
+var mongoose = require('mongoose'),
+  Schema = mongoose.Schema;
+
+/**
+ * Bucket List Schema
+ */
+var BucketListSchema = new Schema({
+  created: {
+    type: Date,
+    default: Date.now
+  },
+  title: {
+    type: String,
+    default: '',
+    trim: true
+  },
+  description: {
+    type: String,
+    default: '',
+    trim: true
+  },
+  status: {
+    type: Boolean,
+    default: false
+  }
+});
+
+mongoose.model('BucketList', BucketListSchema);
+We need to configure the Express route so that service calls from AngularJS are handled properly. Create a file named server/routes/bucketList.js containing the following code.
+
+'use strict';
+
+var bucketList = require('../controllers/bucketList');
+
+module.exports = function (app) {
+  app.post('/bucketList', bucketList.create);
+};
+POST requests to /bucketList are handled by the bucketList.create() method. This method belongs in the server controller, bucketList.js, that we still need to create. The contents of server/controllers/bucketList.js should look like this:
+
+'use strict';
+
+/**
+ * Module dependencies.
+ */
+var mongoose = require('mongoose'),
+  BucketList = mongoose.model('BucketList');
+
+/**
+ * Create an Bucket List
+ */
+exports.create = function(req, res) {
+  var bucketList = new BucketList(req.body);
+
+  bucketList.save(function(err) {
+    if (err) {
+      console.log(err);
+    } else {
+      res.jsonp(bucketList);
+    }
+  });
+};
+There’s still a lot to clean up, but we can check if its working as expected. When a user submits the AngularJS form, it calls the AngularJS service, which invokes the server side create() method, which then inserts the data into MongoDB.
+
+After submitting the form, we can check if the data is properly inserted into Mongo. In order to check data in MongoDB, open another terminal and issue the following commands.
+
+mongo                   // Enter the MongoDB shell prompt
+show dbs;               // Shows the existing Dbs
+use mean-dev;           // Selects the Db mean-dev
+show collections;       // Show the existing collections in mean-dev
+db.bucketlists.find()   //Show the contents of bucketlists collection
+Creating the Bucket List View
+First, add a new route in server/routes/bucketList.js:
+
+app.get('/bucketList', bucketList.all);
+This new route calls the controller’s all() method. Add this method to server/controllers/bucketList.js, as shown below. This code finds the entries in the bucketList collection and returns them.
+
+exports.all = function(req, res) {
+  BucketList.find().exec(function(err, bucketList) {
+    if (err) {
+      console.log(err);
+    } else {
+      res.jsonp(bucketList);
+    }
+  });
+};
+Next, add a new method in public/bucketList/controllers/bucketList.js as shown below.
+
+$scope.getAllBucketList = function() {
+  BucketList.query(function(bucketList) {
+    $scope.bucketList = bucketList;
+  });
+};
+This code fetches the data from Mongo and saves it in our $scope.bucketList variable. Now, we just need to bind it to our HTML. This is done in public/bucketList/views/list.html:
+
+<section data-ng-controller="BucketListController" data-ng-init="getAllBucketList()">
+  <ul class="bucketList unstyled">
+    <li data-ng-repeat="item in bucketList">
+      <span>{{item.created | date:'medium'}}</span> /
+      <span>{{item.title}}</span>
+
+      <div>{{item.description}}</div>
+    </li>
+  </ul>
+  <a href="/#!/addBucketList">Create One</a>
+</section>
+Restart the server and navigate to http://localhost:3000/#!/bucketList. This should display the bucket list items. You can also try adding new items by clicking on the “Create” link below the list.

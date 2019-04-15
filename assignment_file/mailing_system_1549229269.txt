@@ -1,0 +1,42 @@
+Mail server Project using file handling(without database)
+
+This project provide services to exchange or transfer the mail using file system concept.
+To hold data we using only file system instead database.
+In this project we exchange or transfer the mail using file system .
+this project is work similar to gmail system. User information stored inside the directory.
+registration page is make to enter the user details. details are stored inside the directory using file system concept.
+
+Session is used to hold the particular user details:Each time when a new user login or registration.
+Session keep the details of the particular user.
+
+Login Page permits only existing user to login the mailserver page.
+Compose is used to sent mail whose email address is matched ,compose and hit send, sent mail reached to recipient email address inbox with message and attachment.
+All received mail collected on inbox. all received mail are shown in inbox.
+draft is hold the copy of send mail. copy of a sent mail is also stored in a sent
+Mailing system must be able to do these functions
+
+    Compose an email.
+    Send an email
+    Receive an email
+    Saving an email in the form of draft
+    Showing the detail of the received mail
+    Saving the email ids in contact list
+    Secured by password
+    Recovery of the password
+
+Project objectives
+
+Today’s world is all depend upon email system. It also becomes a significant need of the businesses. That’s where, professionals must know mailing system and aware with that, how it works, how can to create a self hosted mailing system and other technical aspects To give learners a wide knowledge about it, here, we make available Free Php projects for students along with source code. Students can download this free source from the website easily. Source code will help you to understand and modify the software in an effortless manner.
+Brief overview of the technology
+
+Front End : HTML, CSS, JavaScript
+
+    HTML: It is the program that is used to create and save HTML documents. For example: notepad .
+    CSS (Cascading Style Sheets):
+    It is a style sheet language. It is used to describe the look and formate of a document written in a markup language.
+    JavaScript: It is a dynamic computer programming language. JavaScript is mostly used as part of web browsers.
+
+Middle End : PHP
+
+    PHP: Hypertext Preprocessor (PHP) is a technology that allows software developers to create dynamically generated web pages, in HTML, XML, or other document types, as per client request. PHP is open source software.
+

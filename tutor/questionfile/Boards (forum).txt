@@ -1,0 +1,8 @@
+topic.board = board
+            topic.starter = user
+            topic.save()
+            post = Post.objects.create(
+                message=form.cleaned_data.get('message'),
+                topic=topic,
+                created_by=user
+            )

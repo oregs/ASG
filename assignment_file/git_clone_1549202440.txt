@@ -1,0 +1,8 @@
+# clone the main repository; don't forget the . at the end
+$ git clone https://github.com/tabdon/crmeasyapp .
+
+# checkout version of project for chapter 3
+$ git checkout step-0
+
+# create a new branch 
+$ git checkout -b setup_crm_easy_project

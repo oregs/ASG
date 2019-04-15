@@ -1,0 +1,92 @@
+<div id="fb-root"></div>
+	<div id="bodycontaniner" > 	
+	    <div id="global" >
+	    	
+<header  role="banner" id="mainheader" >
+    <div id="onlinemenu">
+        <div class="pull-left" >
+            <a href="http://www.54artistry.com/" style="padding:0px; margin-right: 10px;"><span id="logo"></span></a>
+        </div>
+        <div  class="container--">
+            
+            <ul id="menu" class="menu pull-right" style="margin-right:100px;" >
+                <!--<li class="main-item"><a href="http://www.54artistry.com/">Home</a></li>-->
+                <li class="main-item">
+                    <a href="http://services.54artistry.com">Hire <sup style="color:#fe2;">new</sup></a>
+                </li>
+                <li class="main-item">
+                    <a href="http://job.54artistry.com">Job <sup style="color:#fe2;">new</sup></a>
+                    <ul >
+                        <li><a href="http://job.54artistry.com"><span class="fa fa-briefcase"></span> Creative Jobs</a></li>
+                        <li><a href="http://job.54artistry.com/creative"><span class="fa fa-plus"></span> Post a Job</a></li>
+                        <li ><a href="http://www.54artistry.com/hire"><span class="fa fa-briefcase"></span> Hire a Freelancer</a></li>
+                    </ul>
+                </li>
+                <li class="main-item"><a href="#">Categories</a>
+                    <ul>
+                        
+                        <li ><a href="http://www.54artistry.com/Architects.html">Architects </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Artists.html">Artists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Caterers.html">Caterers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Events-Planners.html">Events Planners </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Fashion-Designers-&-Stylists.html">Fashion Designers & Stylists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Graphics-Designers.html">Graphics Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Hair-Stylists.html">Hair Stylists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Interior-Designers.html">Interior Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Jewelry-Designers.html">Jewelry Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Makeup-Artists.html">Makeup Artists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Models.html">Models </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Philanthropists.html">Philanthropists </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Photographers.html">Photographers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Web-Designers.html">Web Designers </a></li>
+                        
+                        <li ><a href="http://www.54artistry.com/Writers.html">Writers </a></li>
+                        
+                    </ul>
+                </li>
+                <li class="main-item">
+                    <a href="#">More</a>
+                    <ul >
+                        <li ><a href="http://www.54artistry.com/search">Discover</a>
+                        <li ><a href="http://blog.54artistry.com">Blog</a></li>
+                        <li ><a href="https://www.facebook.com/54artistry/shop" target="_blank"  >Shop</a></li>
+                        <li ><a href="http://ref.54artistry.com" target="_blank"  >Affiliate</a></li>
+                        <li ><a href="http://ppm.54artistry.com" target="_blank"  >PPM Platform</a></li>
+                    </ul>
+                </li>
+                <!--
+                <li class="main-item"><a href="http://www.54artistry.com/search">Discover</a>
+                <li class="main-item"><a href="http://blog.54artistry.com">Blog</a></li>
+                <li class="main-item"><a href="http://www.54artistry.com/hire">Hire a Freelancer</a></li>
+            
+                <li class="main-item"><a class="online_shop" href="https://www.facebook.com/54artistry/shop" target="_blank"  >Shop</a></li>
+                <li class="main-item"><a class="earn_money" href="http://ref.54artistry.com" target="_blank"  >Affiliate</a></li>
+                <li class="main-item"><a class="earn_money" href="http://ppm.54artistry.com" target="_blank"  >PPM Platform</a></li>
+                -->
+            </ul>
+             
+            
+            <ul class="menu pull-right"  >
+                <li class="main-item"><a  href="http://www.54artistry.com/account/login">Log in</a></li>
+            </ul>
+            
+           
+            
+        </div>
+        <div class="clr"></div>
+    </div>
+</header>
+

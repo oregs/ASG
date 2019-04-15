@@ -1,0 +1,53 @@
+
+
+
+
+/*easyBtn.addEventListener("click", function(){
+    hardBtn.classList.remove("selected");
+    easyBtn.classList.add("selected");
+    numSquares = 3;
+    colors = generateRandomColor(numSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for(var i = 0; i < squares.length; i++){
+    if(colors[i]){
+        squares[i].style.background = colors[i];
+    } 
+        else{
+        squares[i].style.display = "none";
+    }
+    
+    }
+});
+
+hardBtn.addEventListener("click", function(){
+    hardBtn.classList.add("selected");
+     easyBtn.classList.remove("selected");
+    numSquares = 6;
+     colors = generateRandomColor(numSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for(var i = 0; i < squares.length; i++){
+        squares[i].style.background = colors[i];
+         squares[i].style.display = "block";
+    } 
+});
+
+
+//for reset earlier coding b4 shorting
+//generate all new colors
+colors = generateRandomColor(numSquares);
+//pick a new random color from array
+pickedColor = pickColor();
+//changed colorDisplay to match picked color
+colorDisplay.textContent = pickedColor;
+this.textContent = "New Colors"
+
+messageDisplay.textContent = "";
+//change colors of squares
+for(var i = 0; i < squares.length; i++){
+squares[i].style.background = colors[i];
+}   
+h1.style.background = "steelblue";
+});*/
+

@@ -1,0 +1,42 @@
+.error  {
+    width: 92%;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  padding-top: 5px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 10px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 10px;
+}
+
+/*@media(min-width:768px) {
+    body {
+        padding-top: 100px;  Required padding for .navbar-fixed-top. Change if height of navigation changes. 
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}*/
+
+.login {
+margin-bottom:5px;
+}
+
+.dropdown-menu {
+    width: 300px !important;
+}
